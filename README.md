@@ -1,5 +1,5 @@
-Mootools-Private
-================
+Mootools-AOP
+============
 
 AOP is a mutator which let you write Aspect Oriented Classes in MooTools
 
