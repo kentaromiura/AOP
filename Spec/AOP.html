@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>AOP spec</title>
+	<link href="mocha.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="mocha.js"></script>
+	<script type="text/javascript" src="expect.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
+	<script type="text/javascript" src="../../Source/keeto.PatternMutator.js"></script>
+	<script type="text/javascript" src="../../Source/kenta.AOP.js"></script>
+	<script>
+		mocha.setup('bdd')
+		window.onload = function(){
+			mocha.run(function(){
+				// required so phantomjs can check if mocha is ready
+				document.body.setAttribute('data-ready', '1')
+			})
+		}
+	</script>
+	<script type="text/javascript" src="AOP.js"></script>
+</head>
+<body>
+<div id="mocha"></div>
+</body>
+</html>

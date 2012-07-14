@@ -1,0 +1,7 @@
+name: AOP
+author: kentaromiura
+category: Native
+tags: [AOP, decoupling, crosscutting]
+docs: http://mykenta.blogspot.it/search/label/AOP
+#demo: todo
+current: 1.2.0
